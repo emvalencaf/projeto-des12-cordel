@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#88F907;
+    --cor2:#c9d472;
+    --cor3:#95A805;
+    --cor4:#F2E205;
+    --cor5:#DBB807;
+    --cor6:#F9B807;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: var(--cor3);
+}
+header{
+    background-color:var(--cor3);
+    background: var(--cor3) linear-gradient(to top, var(--cor3) 30%,var(--cor5),var(--cor6));
+    height:150px;
+}
+
+header h1{
+    color:var(--cor2);
+    text-align:center;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.347);
+
+    padding-top:20px;
+    padding-bottom:10px;
+}
+
+header p{
+    color:var(--cor2);
+    text-align:center;
+    text-shadow: 0px 0px 8px rgb(0 0 0 / 61%);
+}
+
+nav{
+    background-color: var(--cor3);
+
+    
+    max-width:600px;
+
+    padding:2px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+nav a{
+    display:inline-block;
+
+    color:var(--cor2);
+    font-weight: bold;
+
+    text-decoration: none;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.347);
+
+    padding:5px;
+    margin-top:5px;
+
+    border: transparent solid 1px;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px 2px rgba(245, 245, 245, 0.332);
+}
+
+nav a:hover{
+    color: whitesmoke;
+    box-shadow: inset 0px 0px 5px 2px rgba(245, 245, 245, 0.686);
+}
+
+nav a:active{
+    color:var(--cor4);
+    box-shadow: inset 0px 0px 5px 2px var(--cor4);
+}
+
+main p{
+    font-weight: bold;
+
+    text-align: center;
+
+    white-space: pre-line;
+}
+section{
+    background-color: var(--cor3);
+}
+
+section p{
+    line-height: 1.5em;
+
+    padding-bottom: 20px;
+
+
+}
+
+section.flor{
+    background: var(--cor3) url('../imagens/background001.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+section p{
+    color:var(--cor2);
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+
+    background-color: rgba(0, 0, 0, 0.133);
+    width:204px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+
+    margin:auto;
+}
+
+section.folhas{
+    background: var(--cor3) url('../imagens/background002.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+footer{
+    background-color: #393b2e;
+    padding: 2px;
+}
+
+footer p{
+    color:#c9d472;
+    text-align: center;
+    line-height:1.5em;
+    padding:2px;
+}
+
+footer a{
+    color:#c9d472;
+    font-weight: bold;
+    text-decoration: none;
+    padding:5px;
+}
+
+footer a:hover{
+    border: transparent solid 1px;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+    padding:4px;
+    box-shadow: inset 0px 0px 5px 2px rgba(245, 245, 245, 0.332);
+}
+footer a:active{
+    color:whitesmoke;
+    text-shadow:0px 0px 2px rgba(0, 0, 0, 0.385);
+}
