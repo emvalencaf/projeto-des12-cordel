@@ -95,7 +95,7 @@ section p{
 }
 
 section.flor{
-    background: var(--cor3) url('../imagens/background001.jpg') center center no-repeat fixed;
+    background: var(--cor3) url('../imagens/background003.jpg') center center no-repeat fixed;
     background-size: cover;
 }
 
